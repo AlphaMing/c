@@ -1,3 +1,4 @@
+// unfinished
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -14,12 +15,12 @@ int main()
 		flag = 7;
 	for (i = 0; i < 3; i++)
 		putchar('\t');
-	printf("ÍòÄêÀú\n");
+	printf("ä¸‡å¹´åŽ†\n");
 	for (i = 0; i < 3; i++)
 		putchar('\t');
-	printf("%dÄê%dÔÂ", Year, _Flag);
+	printf("%då¹´%dæœˆ", Year, _Flag);
 	putchar('\n');
-	printf("ÐÇÆÚÒ»\tÐÇÆÚ¶þ\tÐÇÆÚÈý\tÐÇÆÚËÄ\tÐÇÆÚÎå\tÐÇÆÚÁù\tÐÇÆÚÌì\n");
+	printf("æ˜ŸæœŸä¸€\tæ˜ŸæœŸäºŒ\tæ˜ŸæœŸä¸‰\tæ˜ŸæœŸå››\tæ˜ŸæœŸäº”\tæ˜ŸæœŸå…­\tæ˜ŸæœŸå¤©\n");
 	if (_flag && _Flag == 2)
 		_Flag = 29;
 	else
@@ -56,7 +57,7 @@ _Bool error(char year[50], char month[50])
 	if (!(atoi(month) >= 0 && atoi(month) <= 12))
 		flag = false;
 	if(!flag)
-		printf("error!ÇëÖØÐÂÊäÈë£¡");
+		printf("error!è¯·é‡æ–°è¾“å…¥ï¼");
 	return flag;
 }
 int Firstday(int *Month, int *_flag, int *_year)
